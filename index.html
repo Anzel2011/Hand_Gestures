@@ -1,0 +1,57 @@
+<html>
+  <head>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+  <div class="container">
+  
+    <center>
+      <h3 class="btn btn-success heading">GESTURE WEB APP
+        <br>
+        <span>&#129307;</span>
+        <span>&#129306;</span>
+        <span>&#129304;</span>
+        <span>&#128077;</span>
+        
+      </h3>
+
+      <br><br>
+
+      
+      <div class="col-md-4 col-sm-12 col-xs-12">
+	      <label>Webcam View - </label>
+        <div id="camera"></div>
+        <br><br>
+        <button class="btn btn-primary Capture" onclick="take_snapshot()">Capture Image</button>
+      </div>
+      
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <span>&#129307;</span>
+        <span>&#129306;</span>
+        <span>&#129304;</span>
+        <span>&#128077;</span>
+        
+        <br><br>
+	      <label>Prediction - </label>
+        <p class="gesture_name" id="result_gesture_name"></p>
+        <p class="emoji" id="result_emoji"></p> 
+      </div>
+
+      <div class="col-md-4 col-sm-12 col-xs-12">
+	      <label>Picture Took </label>
+        <div id="result"></div>
+        <br><br>
+        <button class="btn btn-success Predict" onclick="check()">Predict Gesture</button>
+      </div>
+
+    </center>
+
+  </div>
+
+
+
+  </body>
+</html>
